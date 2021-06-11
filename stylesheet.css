@@ -1,0 +1,93 @@
+.align-center {
+    text-align: center;
+}
+
+.align-center-img {
+    text-align: center;
+    height: 90%;
+}
+
+.text-container-aligned {
+    text-align: center;
+    margin: auto;
+    width: 80%;
+}
+
+.text-container {
+    margin: auto;
+    width: 80%;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+.main {
+    margin-top: 100px;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: helvetica, sans-serif;
+    height: 100%;
+    margin: 100px 0;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.column img {
+    margin-top: 10px;
+    vertical-align: middle;
+    width: 100%;
+    max-width: 640px;
+}
+
+
+.column {
+    flex: 100%;
+    max-width: 100%;
+}
+
+.x-out {
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    -webkit-filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1);
+}
+
