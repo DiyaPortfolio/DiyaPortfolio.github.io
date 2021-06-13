@@ -31,7 +31,7 @@
 .navbar {
     overflow: hidden;
     background-color: #333;
-    position: fixed; 
+    position: fixed;
     top: 0;
     width: 100%;
 }
@@ -43,6 +43,17 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+}
+
+@media (max-width: 640px){ /**Phone Navbar**/
+    .navbar a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 7px 8px;
+        text-decoration: none;
+    }
 }
 
 .navbar a:hover {
@@ -85,9 +96,29 @@ body {
 
 .x-out {
     position: fixed;
-    top: 50px;
-    right: 50px;
+    top: 10%;
+    right: 10%;
+    width: 30px;
+    height: 30px;
     -webkit-filter: brightness(0) invert(1);
     filter: brightness(0) invert(1);
 }
+
+.left-arrow{
+    position: fixed;
+    bottom: 7%;
+    left: 10%;
+    -webkit-filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1);
+}
+
+.right-arrow{
+    position: fixed;
+    bottom: 7%;
+    right: 10%;
+    -webkit-filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1);
+}
+
+
 
